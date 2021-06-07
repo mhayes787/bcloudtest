@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cypress-page-object-model": "^1.0.23"
+  }
+}
