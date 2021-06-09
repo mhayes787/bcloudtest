@@ -4,6 +4,7 @@
     "cypress-page-object-model": "^1.0.23"
   },
   "devDependencies": {
+    "@cypress/snapshot": "^2.1.7",
     "csvdata": "^1.1.1"
   }
 }
