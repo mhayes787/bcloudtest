@@ -2,5 +2,8 @@
   "dependencies": {
     "cypress": "^7.4.0",
     "cypress-page-object-model": "^1.0.23"
+  },
+  "devDependencies": {
+    "csvdata": "^1.1.1"
   }
 }
