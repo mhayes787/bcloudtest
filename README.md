@@ -14,7 +14,8 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
 
 6. Save the CSV file in a dedicated folder of the root directory of your code, named 'export'.
 
-## Bonus steps
+### Bonus steps
+
 1. Use your desired automated solution to save snapshots, videos, or report results of your test
 
 2. Setup a CI environment to run your automated test. 
@@ -75,17 +76,22 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
 
 ### Option 3 (Record and view test results)
 
-1. From terminal, run the following command "npx cypress run --record --key 54d1f1c9-b8ab-4a30-81ae-8e986a2a2b36" (press "Enter or Return" on keyboard).
-2. Similar to option 2, this command runs in headless mode and a report is generated in the termianl and Cypress Dashboard.
+1. From terminal, run the following command "npx cypress run --record --key 54d1f1c9-b8ab-4a30-81ae-8e986a2a2b36" (press "Enter or Return" on keyboard)
+
+2. Similar to option 2, this command runs in headless mode and a report is generated in the termianl and Cypress Dashboard
+
 3. From the terminal, open the Cypress Test Runner (npx cypress open)
+
 4. Click on the "Runs" tab and you will see some results
    **Note:** It may ask you to "Log In to Dashboard" before viewing the results. You may have to create an account
+
 5. Click on your result and you will be able to see a summary overview of your results
+
 6. Click on the "Test Results" tab 
-   **Note:** You should be able to see the "bcHomePage.spec.js" file, along with each test 
+   **Note:** You should be able to see the "bcHomePage.spec.js" file, along with each test
+ 
 7. Click on one of the test
    **Note:** An aside menu should a appear and give you the option to watch the video. Also there are other options such as Runtime environment, Artifacts, Test code history, etc...
 
-## How to view results and video in Cypress DashBoard
 
 
