@@ -1,6 +1,8 @@
 # bcloudtest
 
-Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpose of this application is to automate the steps listed below using the Cypress test automation tool. 
+Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpose of this application is to automate the steps listed below using the Cypress test automation tool. Also, the purpose of this readme is to minimize confusion of downtime, if  this project is transitioned or being worked on by multiple people.  
+
+### Steps
 
 1. Navigate to www.bettercloud.com
 
@@ -25,6 +27,7 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
 1. In your web browser, go to www.github.com
 
 2. Log into your Github account and enter your credentials
+   
    **Note:** If you do not have an account, please feel free to create one
 
 3. In the search field, input the following "mhayes787/bcloudtest" and press "Enter or Return" on your keyboard
@@ -48,13 +51,14 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
 ## How to install Cypress via npm
 
 * From your project directory, run the following command "npm install cypress -save-dev"
+  
   **Note:** This will install Cypress locally as a dev dependency for your project
 
 ## How to install Cypress via yarn
 
 * From your project directory, run the following command "yarn add cypress -dev"
 
-## How to Test bcloud automation tool based on steps mentioned above
+## How to Test bcloudtest automation tool based on steps mentioned above
 
 ### Option 1
 
@@ -62,17 +66,19 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
    * cd node_modules (press "Enter or Return" on keyboard)
    * cd cypress-page-object-model (press "Enter or Return" on keyboard)
    * Type "npx cypress open" (press "Enter or Return" on keyboard)
-     **Note:** This opens the Cypress Test Runner, which includes the following options "Tests, Runs, and Settings".
+     
+     **Note:** This opens the Cypress Test Runner, which includes the following options "Tests, Runs, and Settings". Also, you have the option to select multiple browsers for testing
      
 2. From Cypress Test Runner, click on "Tests"
 
 3. Click on the following file "bcHomePage.spec.js"
+   
    **Note:** The browswer will appear and you should see the test suites and test cases, along with the automation appearing on the right.
 
 ### Option 2
 
 1. From the terminal, run the following command "npx cypress run" (press "Enter or Return" on keyboard). This command runs all the tests headlessly and a report is generated in the terminal, which tells your how many tests passed and/or failed 
-**Notes:** Make sure your are in the following directory "betterCloudTest/node_modules/cypress-page-object-model" before runnng the command. Also, you should see the "export.csv" file in the root directory with both options
+
 
 ### Option 3 (Record and view test results)
 
@@ -83,15 +89,27 @@ Welcome to the bcloudtest project! Using the Page Object Model (POM), the purpos
 3. From the terminal, open the Cypress Test Runner (npx cypress open)
 
 4. Click on the "Runs" tab and you will see some results
+   
    **Note:** It may ask you to "Log In to Dashboard" before viewing the results. You may have to create an account
 
 5. Click on your result and you will be able to see a summary overview of your results
 
 6. Click on the "Test Results" tab 
+   
    **Note:** You should be able to see the "bcHomePage.spec.js" file, along with each test
  
 7. Click on one of the test
+   
    **Note:** An aside menu should a appear and give you the option to watch the video. Also there are other options such as Runtime environment, Artifacts, Test code history, etc...
+   
+   **Notes:** Make sure your are in the following directory "betterCloudTest/node_modules/cypress-page-object-model" before runnng the command. Also, you should see the "export.csv" file in the root directory with all 3 options
+   
+### Github Actions CI Pipeline 
+
+1. From terminal ("betterCloudTest/node_modules/cypress-page-object-model"), run the following command "npm run cypress-run" to trigger the pipeline
+
+2. From github, click on "Actions". From here, you should be able to see the workflows. The is an option to rerun the pipeline job. 
+
 
 
 
